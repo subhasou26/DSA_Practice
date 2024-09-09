@@ -1,0 +1,1 @@
+{"name":"Local: Roll_No","url":"d:\\java\\CP\\Roll_No.java","tests":[{"id":1722652146696,"input":"2\n4\n1 2 3 4\n5\n1 2 3 4 5","output":"1 3\n1 3 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\java\\CP\\Roll_No.java","group":"local","local":true}

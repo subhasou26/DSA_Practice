@@ -1,0 +1,1 @@
+{"name":"Local: RemoveSqre","url":"d:\\java\\CP\\RemoveSqre.java","tests":[{"id":1722651989314,"input":"72","output":"3"},{"id":1722652451760,"input":"20","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\java\\CP\\RemoveSqre.java","group":"local","local":true}
