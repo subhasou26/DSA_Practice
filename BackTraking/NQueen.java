@@ -23,22 +23,25 @@ public class NQueen {
         }
         return true;
     }
-    public static void nQueen(char bord[][],int row){
+    public static boolean nQueen(char bord[][],int row){
         // base case
         if(row==bord.length){
             printBord(bord);
-            return;
+            return true;
         }
 
         for(int i=0;i<bord.length;i++){
             if(isSafe(bord,row,i)){
                 bord[row][i]='Q';
-                nQueen(bord, row+1);// recursion
+                if(nQueen(bord, row+1)){
+                    return true;
+                }// recursion
                 bord[row][i]='Y'; // back traking
             }
            
            
         }
+        return false;
     }
     public static void printBord(char bord[][]){
         System.out.println("-------chese bord---------");
@@ -60,6 +63,6 @@ public class NQueen {
                 bord[i][j]='x';
             }
         }
-        nQueen(bord,0);
+        nQueen(bord,0); // this code print only one solution
     }
 }
