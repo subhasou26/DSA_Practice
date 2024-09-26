@@ -31,12 +31,10 @@ public class Sudoku {
     }
     public static boolean solve_soduku(int bord[][],int row,int col){
         //base case
-        if(row==9||col==9){
+        if(row==9){
             return true;
         }
-        else if(row==9){
-            return false;
-        }
+       
 
         //recursion
         int nextRow=row,nextCol=col+1;
