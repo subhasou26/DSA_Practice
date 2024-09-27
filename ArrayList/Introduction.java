@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import java.util.*;
-public class introduction {
+public class Introduction {
 
     static void swap(ArrayList<Integer>list,int ind1,int ind2){
         int temp=list.get(ind1);
@@ -34,7 +33,16 @@ public class introduction {
         
         // swap(list, 0, 1);
 
-        Collections.sort(list,Collections.reverseOrder());
-        System.out.println(list);
+        // Collections.sort(list,Collections.reverseOrder());
+        // System.out.println(list);
+
+        ArrayList<ArrayList<Integer>> mainList=new ArrayList<>();
+        ArrayList<Integer> list1=new ArrayList<>();
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        mainList.add(list1);
+        mainList.add(list);
+        System.out.println(mainList);
     }
 }

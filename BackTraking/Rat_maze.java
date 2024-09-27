@@ -1,4 +1,6 @@
 
+import java.util.*;
+
 public class Rat_maze {
     public static boolean isSafe(int grid[][],int row,int col){
         return(row>=0 && row<grid.length && col>=0 && col<grid.length && grid[row][col]==1);
@@ -46,6 +48,8 @@ public class Rat_maze {
                     {0, 0, 0, 0},
                     {0, 0, 0, 0}};                
         System.out.println(ways(grid, 0, 0,sol, 4, 4)); 
-        print(sol);               
+        print(sol);    
+        int arr[]={10,20,30,40,50};
+       System.out.println( Arrays.binarySearch(arr, 30));
     }
 }
