@@ -8,5 +8,7 @@ public class Palindrom {
     public static void main(String[] args) {
         String str="001100";
         System.out.println(f(0,str));
+        //TC->> O(N/2)
+        //SC->> O(N/2)
     }
 }
