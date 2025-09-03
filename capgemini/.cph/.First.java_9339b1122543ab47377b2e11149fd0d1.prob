@@ -1,0 +1,1 @@
+{"name":"Local: First","url":"d:\\java\\capgemini\\First.java","tests":[{"id":1756879055723,"input":"2\n4 1\n1 0","output":"22"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\java\\capgemini\\First.java","group":"local","local":true}
